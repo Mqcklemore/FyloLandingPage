@@ -119,17 +119,20 @@ header li:hover {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    width: 80%;
+    width: 95%;
     margin: 100px auto;
-    padding: 5px 30px;
+    padding: 5px 20px;
 }
 .third img {
     width: 400px;
-    margin-right: px;
+    margin-right: 20px;
     margin-top: 10px;
 }
 .third div h1 {
     margin-bottom: 20px;
+}
+.third div {
+    max-width: 500px;
 }
 .third div p {
     margin-bottom: 20px;
@@ -211,7 +214,6 @@ header li:hover {
     border: none;
     width: 60%;
     color: black;
-    
 }
 .fifth div button{
     padding: 15px;
@@ -293,9 +295,12 @@ footer li {
 /* Third Section */
 .third {
     width: 100%;
+    flex-direction: column;
+    padding: 5px 30px;
 }
 .third img {
-    width: 100%;
+    width: 90%;
+    margin-bottom: 30px;
 }
 
 .fifth{
