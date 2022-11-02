@@ -4,6 +4,7 @@
     padding: 0;
     list-style: none;
     text-decoration: none;
+    font-family: 'Roboto', sans-serif;
 }
 body{
     background-color: hsl(218, 28%, 13%);
